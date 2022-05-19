@@ -6,7 +6,7 @@ namespace AdressBook.Services
     {
         private readonly List<Adress> _adresses = new List<Adress>();
 
-        
+
         public Adress? GetLastAdded()
         {
             return _adresses.LastOrDefault();
